@@ -1,0 +1,83 @@
+# Material file for bush.obj
+
+newmtl Texture_0
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_0.png
+
+newmtl Texture_0_1
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_2
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_3
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_4
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_5
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_6
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_7
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+
+newmtl Texture_0_8
+	Ns 163
+	d 1
+	illum 2
+	Kd 0.0 0.0 0.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Texture_01.png
+

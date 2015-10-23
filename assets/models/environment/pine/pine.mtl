@@ -1,0 +1,20 @@
+# Material file for pine.obj
+
+newmtl Leaves
+	Ns 162
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Leaves.png
+
+newmtl Stem
+	Ns 162
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.25 0.25 0.25
+	Ka 0.2 0.2 0.2
+	map_Kd Stem.png
+
