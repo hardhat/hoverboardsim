@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: f92f7d78e178d7b45838264da5290bdb
+timeCreated: 1446443830
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Vertex_Object2
+    100004: Vertex_Object3
+    100006: Vertex_Object_1
+    100008: Vertex_Object_1_1
+    100010: Vertex_Object_1_10
+    100012: Vertex_Object_1_11
+    100014: Vertex_Object_1_12
+    100016: Vertex_Object_1_13
+    100018: Vertex_Object_1_14
+    100020: Vertex_Object_1_15
+    100022: Vertex_Object_1_16
+    100024: Vertex_Object_1_17
+    100026: Vertex_Object_1_18
+    100028: Vertex_Object_1_19
+    100030: Vertex_Object_1_2
+    100032: Vertex_Object_1_20
+    100034: Vertex_Object_1_21
+    100036: Vertex_Object_1_22
+    100038: Vertex_Object_1_23
+    100040: Vertex_Object_1_24
+    100042: Vertex_Object_1_3
+    100044: Vertex_Object_1_4
+    100046: Vertex_Object_1_5
+    100048: Vertex_Object_1_6
+    100050: Vertex_Object_1_7
+    100052: Vertex_Object_1_8
+    100054: Vertex_Object_1_9
+    400000: //RootNode
+    400002: Vertex_Object2
+    400004: Vertex_Object3
+    400006: Vertex_Object_1
+    400008: Vertex_Object_1_1
+    400010: Vertex_Object_1_10
+    400012: Vertex_Object_1_11
+    400014: Vertex_Object_1_12
+    400016: Vertex_Object_1_13
+    400018: Vertex_Object_1_14
+    400020: Vertex_Object_1_15
+    400022: Vertex_Object_1_16
+    400024: Vertex_Object_1_17
+    400026: Vertex_Object_1_18
+    400028: Vertex_Object_1_19
+    400030: Vertex_Object_1_2
+    400032: Vertex_Object_1_20
+    400034: Vertex_Object_1_21
+    400036: Vertex_Object_1_22
+    400038: Vertex_Object_1_23
+    400040: Vertex_Object_1_24
+    400042: Vertex_Object_1_3
+    400044: Vertex_Object_1_4
+    400046: Vertex_Object_1_5
+    400048: Vertex_Object_1_6
+    400050: Vertex_Object_1_7
+    400052: Vertex_Object_1_8
+    400054: Vertex_Object_1_9
+    2300000: Vertex_Object2
+    2300002: Vertex_Object3
+    2300004: Vertex_Object_1
+    2300006: Vertex_Object_1_1
+    2300008: Vertex_Object_1_10
+    2300010: Vertex_Object_1_11
+    2300012: Vertex_Object_1_12
+    2300014: Vertex_Object_1_13
+    2300016: Vertex_Object_1_14
+    2300018: Vertex_Object_1_15
+    2300020: Vertex_Object_1_16
+    2300022: Vertex_Object_1_17
+    2300024: Vertex_Object_1_18
+    2300026: Vertex_Object_1_19
+    2300028: Vertex_Object_1_2
+    2300030: Vertex_Object_1_20
+    2300032: Vertex_Object_1_21
+    2300034: Vertex_Object_1_22
+    2300036: Vertex_Object_1_23
+    2300038: Vertex_Object_1_24
+    2300040: Vertex_Object_1_3
+    2300042: Vertex_Object_1_4
+    2300044: Vertex_Object_1_5
+    2300046: Vertex_Object_1_6
+    2300048: Vertex_Object_1_7
+    2300050: Vertex_Object_1_8
+    2300052: Vertex_Object_1_9
+    3300000: Vertex_Object2
+    3300002: Vertex_Object3
+    3300004: Vertex_Object_1
+    3300006: Vertex_Object_1_1
+    3300008: Vertex_Object_1_10
+    3300010: Vertex_Object_1_11
+    3300012: Vertex_Object_1_12
+    3300014: Vertex_Object_1_13
+    3300016: Vertex_Object_1_14
+    3300018: Vertex_Object_1_15
+    3300020: Vertex_Object_1_16
+    3300022: Vertex_Object_1_17
+    3300024: Vertex_Object_1_18
+    3300026: Vertex_Object_1_19
+    3300028: Vertex_Object_1_2
+    3300030: Vertex_Object_1_20
+    3300032: Vertex_Object_1_21
+    3300034: Vertex_Object_1_22
+    3300036: Vertex_Object_1_23
+    3300038: Vertex_Object_1_24
+    3300040: Vertex_Object_1_3
+    3300042: Vertex_Object_1_4
+    3300044: Vertex_Object_1_5
+    3300046: Vertex_Object_1_6
+    3300048: Vertex_Object_1_7
+    3300050: Vertex_Object_1_8
+    3300052: Vertex_Object_1_9
+    4300000: Vertex_Object2
+    4300002: Vertex_Object3
+    4300004: Vertex_Object_1
+    4300006: Vertex_Object_1_1
+    4300008: Vertex_Object_1_10
+    4300010: Vertex_Object_1_11
+    4300012: Vertex_Object_1_12
+    4300014: Vertex_Object_1_13
+    4300016: Vertex_Object_1_14
+    4300018: Vertex_Object_1_15
+    4300020: Vertex_Object_1_16
+    4300022: Vertex_Object_1_17
+    4300024: Vertex_Object_1_18
+    4300026: Vertex_Object_1_19
+    4300028: Vertex_Object_1_2
+    4300030: Vertex_Object_1_20
+    4300032: Vertex_Object_1_21
+    4300034: Vertex_Object_1_22
+    4300036: Vertex_Object_1_23
+    4300038: Vertex_Object_1_24
+    4300040: Vertex_Object_1_3
+    4300042: Vertex_Object_1_4
+    4300044: Vertex_Object_1_5
+    4300046: Vertex_Object_1_6
+    4300048: Vertex_Object_1_7
+    4300050: Vertex_Object_1_8
+    4300052: Vertex_Object_1_9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
