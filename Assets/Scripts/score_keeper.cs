@@ -5,6 +5,9 @@ public class score_keeper : MonoBehaviour {
 
 	public GUIText timerText;
 	private float timer;
+	private int timer_count;
+	private int wp_count;
+	private int score;
 	private int minute;
 	private int second;
 	// Use this for initialization
@@ -39,8 +42,14 @@ public class score_keeper : MonoBehaviour {
 
 		//Debug.Log (minute + " : " + second);
 	}
-	void stopGame(){
+	void endGame(){
 
-		//..
+		//wp_count = ..waypointmasteretc..
+		// timer_count = 180 - timer;
+
+		// formula?
+
+		//total_possible - (wp_count + (timer_full - timer_count)) = score;
+
 	}
 }
