@@ -25,7 +25,7 @@ public class waypoint_master : MonoBehaviour {
 
 	private void addFalseChild(){
 
-		float t = 5f;
+		/** float t = 5f;
 		float u = 1f;
 		float tt = t * t;
 		float uu = u * u;
@@ -33,9 +33,9 @@ public class waypoint_master : MonoBehaviour {
 		float ttt = tt * t;
 
 		Vector3 firstPos = waypointGizmos[count].position;
-		if (waypointGizmos [count + 1] == !null) {
+		if (waypointGizmos [count + 1] != null) {
 		
-			Vector3 secPos = waypointGizmos [count + 1].position;
+		//	Vector3 secPos = waypointGizmos[count + 1].position;
 		
 		} else {
 
@@ -48,7 +48,7 @@ public class waypoint_master : MonoBehaviour {
 		Vector3 tweenPoint_05;
 		Vector3 tweenPoint_06;
 
-		tweenPoint_01 = 
+		//tweenPoint_01 = **/
 
 	}
 

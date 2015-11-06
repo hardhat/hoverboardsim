@@ -38,7 +38,7 @@ public class score_keeper : MonoBehaviour {
 
 		//send info..
 
-		timerText.text = minute + " : " + second;
+		// !!! timerText.text = minute + " : " + second;
 
 		//Debug.Log (minute + " : " + second);
 	}
