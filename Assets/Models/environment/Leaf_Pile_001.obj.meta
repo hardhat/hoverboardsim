@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: a569990a0ca6c8243ac365ff345f7035
+timeCreated: 1446940502
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Leaf_831
+    100002: Leaf_832
+    100004: Leaf_833
+    100006: Leaf_834
+    100008: Leaf_835
+    100010: Leaf_836
+    100012: Leaf_837
+    100014: Leaf_838
+    100016: Leaf_839
+    100018: Leaf_840
+    100020: Leaf_841
+    100022: Leaf_842
+    100024: Leaf_843
+    100026: Leaf_844
+    100028: Leaf_845
+    100030: Leaf_846
+    100032: Leaf_847
+    100034: Leaf_848
+    100036: Leaf_849
+    100038: //RootNode
+    400000: Leaf_831
+    400002: Leaf_832
+    400004: Leaf_833
+    400006: Leaf_834
+    400008: Leaf_835
+    400010: Leaf_836
+    400012: Leaf_837
+    400014: Leaf_838
+    400016: Leaf_839
+    400018: Leaf_840
+    400020: Leaf_841
+    400022: Leaf_842
+    400024: Leaf_843
+    400026: Leaf_844
+    400028: Leaf_845
+    400030: Leaf_846
+    400032: Leaf_847
+    400034: Leaf_848
+    400036: Leaf_849
+    400038: //RootNode
+    2300000: Leaf_831
+    2300002: Leaf_832
+    2300004: Leaf_833
+    2300006: Leaf_834
+    2300008: Leaf_835
+    2300010: Leaf_836
+    2300012: Leaf_837
+    2300014: Leaf_838
+    2300016: Leaf_839
+    2300018: Leaf_840
+    2300020: Leaf_841
+    2300022: Leaf_842
+    2300024: Leaf_843
+    2300026: Leaf_844
+    2300028: Leaf_845
+    2300030: Leaf_846
+    2300032: Leaf_847
+    2300034: Leaf_848
+    2300036: Leaf_849
+    3300000: Leaf_831
+    3300002: Leaf_832
+    3300004: Leaf_833
+    3300006: Leaf_834
+    3300008: Leaf_835
+    3300010: Leaf_836
+    3300012: Leaf_837
+    3300014: Leaf_838
+    3300016: Leaf_839
+    3300018: Leaf_840
+    3300020: Leaf_841
+    3300022: Leaf_842
+    3300024: Leaf_843
+    3300026: Leaf_844
+    3300028: Leaf_845
+    3300030: Leaf_846
+    3300032: Leaf_847
+    3300034: Leaf_848
+    3300036: Leaf_849
+    4300000: Leaf_831
+    4300002: Leaf_832
+    4300004: Leaf_833
+    4300006: Leaf_834
+    4300008: Leaf_835
+    4300010: Leaf_836
+    4300012: Leaf_837
+    4300014: Leaf_838
+    4300016: Leaf_839
+    4300018: Leaf_840
+    4300020: Leaf_841
+    4300022: Leaf_842
+    4300024: Leaf_843
+    4300026: Leaf_844
+    4300028: Leaf_845
+    4300030: Leaf_846
+    4300032: Leaf_847
+    4300034: Leaf_848
+    4300036: Leaf_849
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
