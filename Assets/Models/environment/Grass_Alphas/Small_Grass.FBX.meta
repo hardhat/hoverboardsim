@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: d5777052bd47642408bbc4f6c3052167
+timeCreated: 1446940504
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Grass012
+    100002: Grass013
+    100004: Grass_040
+    100006: Grass_041
+    100008: Grass_042
+    100010: Grass_043
+    100012: Grass_044
+    100014: Grass_045
+    100016: //RootNode
+    400000: Grass012
+    400002: Grass013
+    400004: Grass_040
+    400006: Grass_041
+    400008: Grass_042
+    400010: Grass_043
+    400012: Grass_044
+    400014: Grass_045
+    400016: //RootNode
+    2300000: Grass012
+    2300002: Grass013
+    2300004: Grass_040
+    2300006: Grass_041
+    2300008: Grass_042
+    2300010: Grass_043
+    2300012: Grass_044
+    2300014: Grass_045
+    3300000: Grass012
+    3300002: Grass013
+    3300004: Grass_040
+    3300006: Grass_041
+    3300008: Grass_042
+    3300010: Grass_043
+    3300012: Grass_044
+    3300014: Grass_045
+    4300000: Grass_043
+    4300002: Grass_041
+    4300004: Grass_045
+    4300006: Grass_040
+    4300008: Grass012
+    4300010: Grass013
+    4300012: Grass_042
+    4300014: Grass_044
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
