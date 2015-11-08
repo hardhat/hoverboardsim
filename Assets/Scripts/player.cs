@@ -36,7 +36,9 @@ public class player : MonoBehaviour {
 		if (active) {
 		
 			transform.Translate(Vector3.forward * ( Time.deltaTime * forward));
-			transform.Translate(Vector3.right * ( Time.deltaTime * steer ));
+			transform.Translate(Vector3.right * ( (Time.deltaTime * steer ) * forward));
+
+			transform.Rotate(Vector3.up * (( Time.deltaTime * steer * 10f) * forward));
 
 		}
 	}

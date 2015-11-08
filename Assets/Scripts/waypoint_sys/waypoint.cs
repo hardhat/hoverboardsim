@@ -3,18 +3,19 @@ using System.Collections;
 
 public class waypoint : MonoBehaviour {
 
-	private waypoint_master parent;
+	private waypoint_master par;
 	// Use this for initialization
 	public void syncData (waypoint_master mom) {
 	
-		parent = mom;
+		par = mom;
+		Debug.Log("sync made to " + par.name);
 	}
 	
-	void OnCollisionEnter(Collision plyr){
+	void OnTriggerEnter(Collider plyr){
 
 		if (plyr.gameObject.tag == "Player") {
 
-			parent.removeChild(this.gameObject);
+			par.removeChild(this.gameObject);
 		}
 	}
 }

@@ -10,13 +10,20 @@ public class score_keeper : MonoBehaviour {
 	private int score;
 	private int minute;
 	private int second;
+
+	private waypoint_master wpsys;
+
 	// Use this for initialization
 	void Start () {
 
 		timer = 180f;
 	}
-	
-	// Update is called once per frame
+
+	public void sync(waypoint_master wpsystem){
+
+		wpsys = wpsystem;
+	}
+
 	void Update () {
 
 		timer = timer - Time.deltaTime * 2.5f;
