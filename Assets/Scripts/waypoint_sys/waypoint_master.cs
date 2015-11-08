@@ -19,7 +19,7 @@ public class waypoint_master : MonoBehaviour {
 
 		GameObject masterGO = GameObject.FindWithTag ("Master");
 		master = masterGO.GetComponent<score_keeper> ();
-		master.sync ();
+		master.sync (this);
 	}
 
 	private void addChild(){
@@ -27,7 +27,7 @@ public class waypoint_master : MonoBehaviour {
 		waypoint = GameObject.Instantiate (waypointPrefab) as GameObject;
 		waypoint.GetComponent<waypoint>().syncData(this);
 		waypoint.transform.position = waypointGizmos[count].position;
-		addFalseChild ();
+		//addFalseChild ();
 	}
 
 	/**private void addFalseChild(){
