@@ -10,13 +10,14 @@ public class score_keeper : MonoBehaviour {
 	private int score;
 	private int minute;
 	private int second;
+	public int fullTime = 180;
 
-	private waypoint_master wpsys;
+	private waypoint_master wpsys = null;
 
 	// Use this for initialization
 	void Start () {
 
-		timer = 180f;
+		timer = fullTime;
 	}
 
 	public void sync(waypoint_master wpsystem){
@@ -30,10 +31,12 @@ public class score_keeper : MonoBehaviour {
 
 		if (timer < 1) {
 
-			//..stopGame();
+			endGame();
+
 		} else {
 
 			convertInfo();
+
 			//.. resume functions
 		}
 	}
@@ -47,16 +50,17 @@ public class score_keeper : MonoBehaviour {
 
 		// !!! timerText.text = minute + " : " + second;
 
-		//Debug.Log (minute + " : " + second);
+		Debug.Log (minute + " : " + second);
 	}
-	void endGame(){
 
-		//wp_count = ..waypointmasteretc..
-		// timer_count = 180 - timer;
+	public void endGame(){
+
+		wp_count = wpsys.count;
+		timer_count = fullTime - Mathf.CeilToInt(timer);
 
 		// formula?
 
-		//total_possible - (wp_count + (timer_full - timer_count)) = score;
+		score = (fullTime + wpsys.waypointGizmos.Length) - (wp_count + (fullTime - timer_count));
 
 	}
 }

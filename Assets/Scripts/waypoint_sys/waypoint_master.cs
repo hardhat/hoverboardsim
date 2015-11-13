@@ -66,13 +66,14 @@ public class waypoint_master : MonoBehaviour {
 		count++;
 		Destroy (kid.gameObject);
 
-		if (count != waypointGizmos.Length) {
+		if (count <= waypointGizmos.Length -1) {
 		
 			addChild ();
 		}
 
-		if (count == waypointGizmos.Length){
+		if (count == waypointGizmos.Length -1){
 
+			master.endGame();
 			Debug.Log("finish game");
 		}
 	}

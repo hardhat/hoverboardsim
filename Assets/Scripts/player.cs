@@ -3,15 +3,19 @@ using System.Collections;
 
 public class player : MonoBehaviour {
 
-	public float speed = 5f; 
+	public float speed = 50f; 
+
+	private Animator anim;
 
 	private bool active;
 	private float steer;
 	private float forward;
 	public Transform moveNode;
-	// Use this for initialization
+
 	void Start () {
 	
+		GameObject playerMesh = GameObject.FindGameObjectWithTag ("PlayerMesh");
+		anim = playerMesh.GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -20,10 +24,13 @@ public class player : MonoBehaviour {
 		if (state == 0) {
 
 			active = false;
+			anim.SetBool("offBoard", true);
 		
 		} else {
 
 			active = true;
+			anim.SetBool("offBoard", false);
+
 			steer = x;
 			forward = y;
 		}
@@ -33,13 +40,15 @@ public class player : MonoBehaviour {
 
 	void Update(){
 
+		anim.SetFloat ("forward", forward);
+		anim.SetFloat ("steer", steer);
+
 		if (active) {
-		
-			transform.Translate(Vector3.forward * ( Time.deltaTime * forward));
-			transform.Translate(Vector3.right * ( (Time.deltaTime * steer ) * forward));
 
-			transform.Rotate(Vector3.up * (( Time.deltaTime * steer * 10f) * forward));
+			transform.Translate (Vector3.forward * (Time.deltaTime * (forward * speed)));
+			transform.Translate (Vector3.right * ((Time.deltaTime * steer) * (forward * speed)));
 
+			transform.Rotate (Vector3.up * ((Time.deltaTime * steer * 10f) * (forward * speed)));
 		}
 	}
 }

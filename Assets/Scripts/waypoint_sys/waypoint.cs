@@ -16,6 +16,7 @@ public class waypoint : MonoBehaviour {
 		if (plyr.gameObject.tag == "Player") {
 
 			par.removeChild(this.gameObject);
+			return;
 		}
 	}
 }

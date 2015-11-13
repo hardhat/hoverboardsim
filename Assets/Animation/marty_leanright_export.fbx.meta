@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 6d884372800f3b245a86b7f0043f5a60
+timeCreated: 1447129150
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: marty_rig_final:ankle_left_rig
+    100004: marty_rig_final:ankle_right_rig
+    100006: marty_rig_final:Box001
+    100008: marty_rig_final:Box002
+    100010: marty_rig_final:Box003
+    100012: marty_rig_final:Box004
+    100014: marty_rig_final:Box005
+    100016: marty_rig_final:chest_control
+    100018: marty_rig_final:deleteme
+    100020: marty_rig_final:elbow_left_rig
+    100022: marty_rig_final:elbow_right_rig
+    100024: marty_rig_final:foot_ball_left_rig
+    100026: marty_rig_final:foot_ball_right_rig
+    100028: marty_rig_final:foot_heel_left_rig
+    100030: marty_rig_final:foot_heel_right_rig
+    100032: marty_rig_final:foot_IK_left
+    100034: marty_rig_final:foot_IK_left_control
+    100036: marty_rig_final:foot_IK_right
+    100038: marty_rig_final:foot_IK_right_control
+    100040: marty_rig_final:foot_tip_left_rig
+    100042: marty_rig_final:foot_tip_right_rig
+    100044: marty_rig_final:Hair_BACK
+    100046: marty_rig_final:Hand
+    100048: marty_rig_final:hand_left_IK
+    100050: marty_rig_final:hand_left_IK_control
+    100052: marty_rig_final:hand_right_IK
+    100054: marty_rig_final:hand_right_IK_control
+    100056: marty_rig_final:head_control
+    100058: marty_rig_final:head_rig
+    100060: marty_rig_final:head_tip_rig
+    100062: marty_rig_final:hip_control
+    100064: marty_rig_final:hip_left_rig
+    100066: marty_rig_final:hip_right_rig
+    100068: marty_rig_final:index_left_01
+    100070: marty_rig_final:index_left_02
+    100072: marty_rig_final:index_left_03
+    100074: marty_rig_final:index_left_04
+    100076: marty_rig_final:index_right_01
+    100078: marty_rig_final:index_right_02
+    100080: marty_rig_final:index_right_03
+    100082: marty_rig_final:index_right_04
+    100084: marty_rig_final:knee_left_rig
+    100086: marty_rig_final:knee_right_rig
+    100088: marty_rig_final:left
+    100090: marty_rig_final:left_elbow_controller
+    100092: marty_rig_final:left_knee_controller
+    100094: marty_rig_final:left_shoulder_control
+    100096: marty_rig_final:middle_left_01
+    100098: marty_rig_final:middle_left_02
+    100100: marty_rig_final:middle_left_03
+    100102: marty_rig_final:middle_left_04
+    100104: marty_rig_final:middle_right_01
+    100106: marty_rig_final:middle_right_02
+    100108: marty_rig_final:middle_right_03
+    100110: marty_rig_final:middle_right_04
+    100112: marty_rig_final:neck_base_rig
+    100114: marty_rig_final:pinky_left_01
+    100116: marty_rig_final:pinky_left_02
+    100118: marty_rig_final:pinky_left_03
+    100120: marty_rig_final:pinky_left_04
+    100122: marty_rig_final:pinky_right_01
+    100124: marty_rig_final:pinky_right_02
+    100126: marty_rig_final:pinky_right_03
+    100128: marty_rig_final:pinky_right_04
+    100130: marty_rig_final:Plane001
+    100132: marty_rig_final:Plane002
+    100134: marty_rig_final:Pockets
+    100136: marty_rig_final:rig_CONTROLS
+    100138: marty_rig_final:rig_JOINTS
+    100140: marty_rig_final:right_elbow_controller
+    100142: marty_rig_final:right_knee_controller
+    100144: marty_rig_final:right_shoulder_control
+    100146: marty_rig_final:ring_left_01
+    100148: marty_rig_final:ring_left_02
+    100150: marty_rig_final:ring_left_03
+    100152: marty_rig_final:ring_left_04
+    100154: marty_rig_final:ring_right_01
+    100156: marty_rig_final:ring_right_02
+    100158: marty_rig_final:ring_right_03
+    100160: marty_rig_final:ring_right_04
+    100162: marty_rig_final:Shoe
+    100164: marty_rig_final:shoulder_left_rig
+    100166: marty_rig_final:shoulder_right_rig
+    100168: marty_rig_final:side1
+    100170: marty_rig_final:spine_rig_01
+    100172: marty_rig_final:spine_rig_02
+    100174: marty_rig_final:spine_rig_03
+    100176: marty_rig_final:thumb_left_01
+    100178: marty_rig_final:thumb_left_02
+    100180: marty_rig_final:thumb_left_03
+    100182: marty_rig_final:thumb_right_01
+    100184: marty_rig_final:thumb_right_02
+    100186: marty_rig_final:thumb_right_03
+    100188: marty_rig_final:Tongue
+    100190: marty_rig_final:waist_control
+    100192: marty_rig_final:wrist_left_rig
+    100194: marty_rig_final:wrist_right_rig
+    400000: //RootNode
+    400002: marty_rig_final:ankle_left_rig
+    400004: marty_rig_final:ankle_right_rig
+    400006: marty_rig_final:Box001
+    400008: marty_rig_final:Box002
+    400010: marty_rig_final:Box003
+    400012: marty_rig_final:Box004
+    400014: marty_rig_final:Box005
+    400016: marty_rig_final:chest_control
+    400018: marty_rig_final:deleteme
+    400020: marty_rig_final:elbow_left_rig
+    400022: marty_rig_final:elbow_right_rig
+    400024: marty_rig_final:foot_ball_left_rig
+    400026: marty_rig_final:foot_ball_right_rig
+    400028: marty_rig_final:foot_heel_left_rig
+    400030: marty_rig_final:foot_heel_right_rig
+    400032: marty_rig_final:foot_IK_left
+    400034: marty_rig_final:foot_IK_left_control
+    400036: marty_rig_final:foot_IK_right
+    400038: marty_rig_final:foot_IK_right_control
+    400040: marty_rig_final:foot_tip_left_rig
+    400042: marty_rig_final:foot_tip_right_rig
+    400044: marty_rig_final:Hair_BACK
+    400046: marty_rig_final:Hand
+    400048: marty_rig_final:hand_left_IK
+    400050: marty_rig_final:hand_left_IK_control
+    400052: marty_rig_final:hand_right_IK
+    400054: marty_rig_final:hand_right_IK_control
+    400056: marty_rig_final:head_control
+    400058: marty_rig_final:head_rig
+    400060: marty_rig_final:head_tip_rig
+    400062: marty_rig_final:hip_control
+    400064: marty_rig_final:hip_left_rig
+    400066: marty_rig_final:hip_right_rig
+    400068: marty_rig_final:index_left_01
+    400070: marty_rig_final:index_left_02
+    400072: marty_rig_final:index_left_03
+    400074: marty_rig_final:index_left_04
+    400076: marty_rig_final:index_right_01
+    400078: marty_rig_final:index_right_02
+    400080: marty_rig_final:index_right_03
+    400082: marty_rig_final:index_right_04
+    400084: marty_rig_final:knee_left_rig
+    400086: marty_rig_final:knee_right_rig
+    400088: marty_rig_final:left
+    400090: marty_rig_final:left_elbow_controller
+    400092: marty_rig_final:left_knee_controller
+    400094: marty_rig_final:left_shoulder_control
+    400096: marty_rig_final:middle_left_01
+    400098: marty_rig_final:middle_left_02
+    400100: marty_rig_final:middle_left_03
+    400102: marty_rig_final:middle_left_04
+    400104: marty_rig_final:middle_right_01
+    400106: marty_rig_final:middle_right_02
+    400108: marty_rig_final:middle_right_03
+    400110: marty_rig_final:middle_right_04
+    400112: marty_rig_final:neck_base_rig
+    400114: marty_rig_final:pinky_left_01
+    400116: marty_rig_final:pinky_left_02
+    400118: marty_rig_final:pinky_left_03
+    400120: marty_rig_final:pinky_left_04
+    400122: marty_rig_final:pinky_right_01
+    400124: marty_rig_final:pinky_right_02
+    400126: marty_rig_final:pinky_right_03
+    400128: marty_rig_final:pinky_right_04
+    400130: marty_rig_final:Plane001
+    400132: marty_rig_final:Plane002
+    400134: marty_rig_final:Pockets
+    400136: marty_rig_final:rig_CONTROLS
+    400138: marty_rig_final:rig_JOINTS
+    400140: marty_rig_final:right_elbow_controller
+    400142: marty_rig_final:right_knee_controller
+    400144: marty_rig_final:right_shoulder_control
+    400146: marty_rig_final:ring_left_01
+    400148: marty_rig_final:ring_left_02
+    400150: marty_rig_final:ring_left_03
+    400152: marty_rig_final:ring_left_04
+    400154: marty_rig_final:ring_right_01
+    400156: marty_rig_final:ring_right_02
+    400158: marty_rig_final:ring_right_03
+    400160: marty_rig_final:ring_right_04
+    400162: marty_rig_final:Shoe
+    400164: marty_rig_final:shoulder_left_rig
+    400166: marty_rig_final:shoulder_right_rig
+    400168: marty_rig_final:side1
+    400170: marty_rig_final:spine_rig_01
+    400172: marty_rig_final:spine_rig_02
+    400174: marty_rig_final:spine_rig_03
+    400176: marty_rig_final:thumb_left_01
+    400178: marty_rig_final:thumb_left_02
+    400180: marty_rig_final:thumb_left_03
+    400182: marty_rig_final:thumb_right_01
+    400184: marty_rig_final:thumb_right_02
+    400186: marty_rig_final:thumb_right_03
+    400188: marty_rig_final:Tongue
+    400190: marty_rig_final:waist_control
+    400192: marty_rig_final:wrist_left_rig
+    400194: marty_rig_final:wrist_right_rig
+    4300000: marty_rig_final:Box001
+    4300002: marty_rig_final:Box002
+    4300004: marty_rig_final:Box003
+    4300006: marty_rig_final:Box004
+    4300008: marty_rig_final:Shoe
+    4300010: marty_rig_final:Tongue
+    4300012: marty_rig_final:Box005
+    4300014: marty_rig_final:Plane001
+    4300016: marty_rig_final:Plane002
+    4300018: marty_rig_final:Hair_BACK
+    4300020: marty_rig_final:deleteme
+    4300022: marty_rig_final:Pockets
+    4300024: marty_rig_final:Hand
+    7400000: lean_r
+    9500000: //RootNode
+    13700000: marty_rig_final:Box001
+    13700002: marty_rig_final:Box002
+    13700004: marty_rig_final:Box003
+    13700006: marty_rig_final:Box004
+    13700008: marty_rig_final:Box005
+    13700010: marty_rig_final:deleteme
+    13700012: marty_rig_final:Hair_BACK
+    13700014: marty_rig_final:Hand
+    13700016: marty_rig_final:Plane001
+    13700018: marty_rig_final:Plane002
+    13700020: marty_rig_final:Pockets
+    13700022: marty_rig_final:Shoe
+    13700024: marty_rig_final:Tongue
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: lean_r
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: marty_rig_final:Box001
+        weight: 1
+      - path: marty_rig_final:Box002
+        weight: 1
+      - path: marty_rig_final:Box003
+        weight: 1
+      - path: marty_rig_final:Box004
+        weight: 1
+      - path: marty_rig_final:Box005
+        weight: 1
+      - path: marty_rig_final:chest_control
+        weight: 1
+      - path: marty_rig_final:deleteme
+        weight: 1
+      - path: marty_rig_final:Hair_BACK
+        weight: 1
+      - path: marty_rig_final:Hand
+        weight: 1
+      - path: marty_rig_final:head_control
+        weight: 1
+      - path: marty_rig_final:hip_control
+        weight: 1
+      - path: marty_rig_final:left
+        weight: 1
+      - path: marty_rig_final:left_shoulder_control
+        weight: 1
+      - path: marty_rig_final:Plane001
+        weight: 1
+      - path: marty_rig_final:Plane002
+        weight: 1
+      - path: marty_rig_final:Pockets
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:foot_IK_left_control
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:foot_IK_left_control/marty_rig_final:foot_IK_left
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:foot_IK_right_control
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:foot_IK_right_control/marty_rig_final:foot_IK_right
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:hand_left_IK_control
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:hand_left_IK_control/marty_rig_final:hand_left_IK
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:hand_right_IK_control
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:hand_right_IK_control/marty_rig_final:hand_right_IK
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:left_elbow_controller
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:left_knee_controller
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:right_elbow_controller
+        weight: 1
+      - path: marty_rig_final:rig_CONTROLS/marty_rig_final:right_knee_controller
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig/marty_rig_final:knee_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig/marty_rig_final:knee_left_rig/marty_rig_final:ankle_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig/marty_rig_final:knee_left_rig/marty_rig_final:ankle_left_rig/marty_rig_final:foot_ball_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig/marty_rig_final:knee_left_rig/marty_rig_final:ankle_left_rig/marty_rig_final:foot_ball_left_rig/marty_rig_final:foot_heel_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_left_rig/marty_rig_final:knee_left_rig/marty_rig_final:ankle_left_rig/marty_rig_final:foot_ball_left_rig/marty_rig_final:foot_heel_left_rig/marty_rig_final:foot_tip_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig/marty_rig_final:knee_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig/marty_rig_final:knee_right_rig/marty_rig_final:ankle_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig/marty_rig_final:knee_right_rig/marty_rig_final:ankle_right_rig/marty_rig_final:foot_ball_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig/marty_rig_final:knee_right_rig/marty_rig_final:ankle_right_rig/marty_rig_final:foot_ball_right_rig/marty_rig_final:foot_heel_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:hip_right_rig/marty_rig_final:knee_right_rig/marty_rig_final:ankle_right_rig/marty_rig_final:foot_ball_right_rig/marty_rig_final:foot_heel_right_rig/marty_rig_final:foot_tip_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:neck_base_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:neck_base_rig/marty_rig_final:head_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:neck_base_rig/marty_rig_final:head_rig/marty_rig_final:head_tip_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:index_left_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:index_left_01/marty_rig_final:index_left_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:index_left_01/marty_rig_final:index_left_02/marty_rig_final:index_left_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:index_left_01/marty_rig_final:index_left_02/marty_rig_final:index_left_03/marty_rig_final:index_left_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:middle_left_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:middle_left_01/marty_rig_final:middle_left_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:middle_left_01/marty_rig_final:middle_left_02/marty_rig_final:middle_left_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:middle_left_01/marty_rig_final:middle_left_02/marty_rig_final:middle_left_03/marty_rig_final:middle_left_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:pinky_left_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:pinky_left_01/marty_rig_final:pinky_left_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:pinky_left_01/marty_rig_final:pinky_left_02/marty_rig_final:pinky_left_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:pinky_left_01/marty_rig_final:pinky_left_02/marty_rig_final:pinky_left_03/marty_rig_final:pinky_left_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:ring_left_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:ring_left_01/marty_rig_final:ring_left_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:ring_left_01/marty_rig_final:ring_left_02/marty_rig_final:ring_left_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:ring_left_01/marty_rig_final:ring_left_02/marty_rig_final:ring_left_03/marty_rig_final:ring_left_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:thumb_left_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:thumb_left_01/marty_rig_final:thumb_left_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_left_rig/marty_rig_final:elbow_left_rig/marty_rig_final:wrist_left_rig/marty_rig_final:thumb_left_01/marty_rig_final:thumb_left_02/marty_rig_final:thumb_left_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:index_right_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:index_right_01/marty_rig_final:index_right_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:index_right_01/marty_rig_final:index_right_02/marty_rig_final:index_right_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:index_right_01/marty_rig_final:index_right_02/marty_rig_final:index_right_03/marty_rig_final:index_right_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:middle_right_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:middle_right_01/marty_rig_final:middle_right_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:middle_right_01/marty_rig_final:middle_right_02/marty_rig_final:middle_right_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:middle_right_01/marty_rig_final:middle_right_02/marty_rig_final:middle_right_03/marty_rig_final:middle_right_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:pinky_right_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:pinky_right_01/marty_rig_final:pinky_right_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:pinky_right_01/marty_rig_final:pinky_right_02/marty_rig_final:pinky_right_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:pinky_right_01/marty_rig_final:pinky_right_02/marty_rig_final:pinky_right_03/marty_rig_final:pinky_right_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:ring_right_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:ring_right_01/marty_rig_final:ring_right_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:ring_right_01/marty_rig_final:ring_right_02/marty_rig_final:ring_right_03
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:ring_right_01/marty_rig_final:ring_right_02/marty_rig_final:ring_right_03/marty_rig_final:ring_right_04
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:thumb_right_01
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:thumb_right_01/marty_rig_final:thumb_right_02
+        weight: 1
+      - path: marty_rig_final:rig_JOINTS/marty_rig_final:spine_rig_01/marty_rig_final:spine_rig_02/marty_rig_final:spine_rig_03/marty_rig_final:shoulder_right_rig/marty_rig_final:elbow_right_rig/marty_rig_final:wrist_right_rig/marty_rig_final:thumb_right_01/marty_rig_final:thumb_right_02/marty_rig_final:thumb_right_03
+        weight: 1
+      - path: marty_rig_final:right_shoulder_control
+        weight: 1
+      - path: marty_rig_final:Shoe
+        weight: 1
+      - path: marty_rig_final:side1
+        weight: 1
+      - path: marty_rig_final:Tongue
+        weight: 1
+      - path: marty_rig_final:waist_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
