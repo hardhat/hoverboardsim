@@ -11,6 +11,7 @@ public class player : MonoBehaviour {
 	private float steer;
 	private float forward;
 	public Transform moveNode;
+	public bool freeze = false;
 
 	void Start () {
 	
@@ -40,15 +41,17 @@ public class player : MonoBehaviour {
 
 	void Update(){
 
-		anim.SetFloat ("forward", forward);
-		anim.SetFloat ("steer", steer);
+		if (!freeze) {
+			anim.SetFloat ("forward", forward);
+			anim.SetFloat ("steer", steer);
 
-		if (active) {
+			if (active) {
 
-			transform.Translate (Vector3.forward * (Time.deltaTime * (forward * speed)));
-			transform.Translate (Vector3.right * ((Time.deltaTime * steer) * (forward * speed)));
+				transform.Translate (Vector3.forward * (Time.deltaTime * (forward * speed)));
+				transform.Translate (Vector3.right * ((Time.deltaTime * steer) * (forward * speed)));
 
-			transform.Rotate (Vector3.up * ((Time.deltaTime * steer * 10f) * (forward * speed)));
+				transform.Rotate (Vector3.up * ((Time.deltaTime * steer * 10f) * (forward * speed)));
+			}
 		}
 	}
 }

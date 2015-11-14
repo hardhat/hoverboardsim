@@ -16,6 +16,7 @@ public class score_keeper : MonoBehaviour {
 	private float trueSec = 0;
 	private bool endgame = false;
 	private Canvas endbutton;
+	private player plyr;
 
 	private waypoint_master wpsys = null;
 
@@ -30,6 +31,9 @@ public class score_keeper : MonoBehaviour {
 		scoreText = access.GetComponent<timer_master> ();
 		access = GameObject.Find ("end_button_canvas");
 		endbutton = access.GetComponent<Canvas> ();
+
+		access = GameObject.FindWithTag("Player");
+		plyr = access.GetComponent<player> ();
 	}
 
 	public void sync(waypoint_master wpsystem){
@@ -73,6 +77,8 @@ public class score_keeper : MonoBehaviour {
 	}
 
 	public void endGame(){
+
+
 		endgame = true;
 
 		wp_count = wpsys.count;
@@ -83,6 +89,8 @@ public class score_keeper : MonoBehaviour {
 		score = ((second * (minute + 1)) + wpsys.waypointGizmos.Length) - (wp_count + ((second * (minute + 1)) - timer_count));
 		
 		scoreText.info = "SCORE: " + score;
+
+		plyr.freeze = true;
 
 	}
 
