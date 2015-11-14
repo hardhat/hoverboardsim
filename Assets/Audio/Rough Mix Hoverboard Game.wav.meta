@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 4656114e03e4ad84db207398b918eb0b
 timeCreated: 1447484013
+=======
+guid: ddc0e558d009b934286003938963ed19
+timeCreated: 1447475854
+>>>>>>> Forgot the meta files again.
 licenseType: Free
 AudioImporter:
   serializedVersion: 6
