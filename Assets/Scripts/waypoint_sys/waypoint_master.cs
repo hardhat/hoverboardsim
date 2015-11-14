@@ -71,10 +71,11 @@ public class waypoint_master : MonoBehaviour {
 			addChild ();
 		}
 
-		if (count == waypointGizmos.Length -1){
+		if (count == waypointGizmos.Length){
+
+			Debug.Log("finish game");
 
 			master.endGame();
-			Debug.Log("finish game");
 		}
 	}
 }

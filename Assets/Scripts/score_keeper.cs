@@ -3,21 +3,33 @@ using System.Collections;
 
 public class score_keeper : MonoBehaviour {
 
-	public GUIText timerText;
+	public timer_master timerText;
+	public timer_master wpText;
+	public timer_master scoreText;
+
 	private float timer;
 	private int timer_count;
 	private int wp_count;
-	private int score;
-	private int minute;
-	private int second;
-	public int fullTime = 180;
+	private int score = 0;
+	private int minute = 3;
+	private int second = 00;
+	private float trueSec = 0;
+	private bool endgame = false;
+	private Canvas endbutton;
 
 	private waypoint_master wpsys = null;
 
 	// Use this for initialization
 	void Start () {
-
-		timer = fullTime;
+		
+		GameObject access = GameObject.Find ("timer_text");
+		timerText = access.GetComponent<timer_master> ();
+		access = GameObject.Find ("wp_text");
+		wpText = access.GetComponent<timer_master> ();
+		access = GameObject.Find ("score_text");
+		scoreText = access.GetComponent<timer_master> ();
+		access = GameObject.Find ("end_button_canvas");
+		endbutton = access.GetComponent<Canvas> ();
 	}
 
 	public void sync(waypoint_master wpsystem){
@@ -27,9 +39,18 @@ public class score_keeper : MonoBehaviour {
 
 	void Update () {
 
-		timer = timer - Time.deltaTime * 2.5f;
+		if (!endgame){
+		
+		trueSec -= Time.deltaTime;
+		second = Mathf.CeilToInt (trueSec);
 
-		if (timer < 1) {
+		if (trueSec < 1) {
+
+			minute = minute - 1;
+			trueSec = 59;
+		}
+
+		if (minute < 1 && second < 1) {
 
 			endGame();
 
@@ -38,29 +59,34 @@ public class score_keeper : MonoBehaviour {
 			convertInfo();
 
 			//.. resume functions
+			
+			}
 		}
 	}
 
 	void convertInfo(){
+	
+		timerText.info = minute + " : " + second;
+		wpText.info = wpsys.count.ToString();
 
-		minute = Mathf.CeilToInt(timer / 60);
-		second = Mathf.CeilToInt(timer) / minute;
-
-		//send info..
-
-		// !!! timerText.text = minute + " : " + second;
-
-		Debug.Log (minute + " : " + second);
+		//Debug.Log (minute + " : " + second);
 	}
 
 	public void endGame(){
+		endgame = true;
 
 		wp_count = wpsys.count;
-		timer_count = fullTime - Mathf.CeilToInt(timer);
+		timer_count = (second + (minute) * 60);
 
 		// formula?
+		endbutton.enabled = true;
+		score = ((second * (minute + 1)) + wpsys.waypointGizmos.Length) - (wp_count + ((second * (minute + 1)) - timer_count));
+		
+		scoreText.info = "SCORE: " + score;
 
-		score = (fullTime + wpsys.waypointGizmos.Length) - (wp_count + (fullTime - timer_count));
+	}
 
+	public void returnBack(){
+		Application.LoadLevel (0);
 	}
 }
