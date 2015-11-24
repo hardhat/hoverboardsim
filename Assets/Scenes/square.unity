@@ -94,15 +94,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 775.299988
+      value: 794.570007
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 326.100006
+      value: 275.25
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -100.906998
+      value: 13.7299995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -123,6 +123,18 @@ Prefab:
     - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
       propertyPath: m_RootOrder
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
@@ -342,6 +354,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
+--- !u!1 &400259362 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 20d8afb6db3801d4792f02b572ed0b6e, type: 3}
+  m_PrefabInternal: {fileID: 59470990}
+--- !u!54 &400259363
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 400259362}
+  serializedVersion: 2
+  m_Mass: 1e+07
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &560734823
 GameObject:
   m_ObjectHideFlags: 0
