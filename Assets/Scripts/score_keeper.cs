@@ -48,7 +48,7 @@ public class score_keeper : MonoBehaviour {
 		trueSec -= Time.deltaTime;
 		second = Mathf.CeilToInt (trueSec);
 
-		if (trueSec < 1) {
+		if (trueSec < 0) {
 
 			minute = minute - 1;
 			trueSec = 59;
